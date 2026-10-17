@@ -38,6 +38,14 @@ Aplicacion de prospeccion comercial que consulta negocios directamente en Google
 
 `GEMINI_API_KEY` es opcional y solo se usa para redactar propuestas B2B. Sin esa clave, la aplicacion genera una propuesta basica. En despliegues, configura `GOOGLE_MAPS_API_KEY` como variable de entorno del servidor.
 
+## Despliegue en Hostinger Horizons
+
+- Usa `npm run build` como comando de compilacion.
+- Configura `server.js` como archivo de entrada de la aplicacion Express.
+- Usa `npm start` como comando de inicio y Node.js 22.
+- Configura `NODE_ENV=production` y `GOOGLE_MAPS_API_KEY` en las variables de entorno de Hostinger. No subas `.env.local` ni pongas la clave en `.env.example`.
+- Vuelve a desplegar desde la rama `main` despues de subir los cambios a GitHub.
+
 ## Busquedas y enlaces
 
 - Las busquedas usan la API de texto de Places y su paginacion real (hasta 60 resultados).
