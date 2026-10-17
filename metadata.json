@@ -1,0 +1,6 @@
+{
+  "name": "Radar Clientes",
+  "description": "Buscador de clientes potenciales conectado a Google Maps Places con datos de fichas, sitios web publicados, teléfonos, enlaces a Maps y exportación comercial.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
